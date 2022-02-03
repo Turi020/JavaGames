@@ -1,0 +1,56 @@
+.container {
+    background-color: lime;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big {
+    background-color: magenta;
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+
+.bug {
+    background-color: mediumseagreen;
+    position: absolute;
+    left: -10px;
+    bottom: -10px;
+    height: 50px;
+    width: 50px;
+}
+
+.beg {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.set {
+    background-color: blueviolet;
+    position: relative;
+    bottom: -250px;
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sut {
+    background-color: brown;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}

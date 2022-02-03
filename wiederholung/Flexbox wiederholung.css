@@ -1,0 +1,47 @@
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 300px;
+    left: 0px;
+    height: 300px;
+    top: 0px;
+}
+
+.bluebox {
+    position: absolute;
+    background-color: purple;
+    width: 50px;
+    height: 50px;
+    bottom: -10px;
+    right: -10px;
+}
+
+.box {
+    position: relative;
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bix {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+}
+
+.stick {
+    position: relative;
+    background-color: greenyellow;
+    height: 20px;
+    width: 20px;
+    bottom: -80px;
+}

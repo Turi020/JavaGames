@@ -1,0 +1,33 @@
+ .b {
+     background-color: chartreuse;
+     position: absolute;
+     width: 300px;
+     height: 300px;
+     bottom: 100px;
+ }
+ 
+ .box {
+     background-color: darkblue;
+     position: relative;
+     width: 50px;
+     height: 50px;
+     justify-content: left;
+ }
+ 
+ .d {
+     background-color: darkblue;
+     position: relative;
+     width: 50px;
+     height: 50px;
+     justify-content: left;
+     bottom: 10px;
+ }
+ 
+ .c {
+     background-color: darkorchid;
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     bottom: 0px;
+     right: 0px;
+ }

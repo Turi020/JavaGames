@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+</head>
+
+<body>
+
+
+    <script>
+        var config = {
+            type: Phaser.AUTO,
+            width: 2000,
+            height: 900,
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    gravity: {
+                        y: 200
+                    }
+                }
+            },
+            scene: {
+                preload: preload,
+                create: create
+            }
+        };
+
+
+        var game = new Phaser.Game(config);
+
+
+        function preload() {
+
+
+
+            this.load.image('sky', 'http://labs.phaser.io/assets/skies/space3.png');
+            this.load.image('logo', 'image/SPooderman.png');
+            this.load.image('red', 'image/Spinnennetz.jpg');
+        }
+
+
+        function create() {
+
+            this.add.image(1200, 600, 'sky');
+            this.add.image(2000, 600, 'sky');
+            this.add.image(400, 600, 'sky');
+
+
+
+
+            var particles = this.add.particles('red');
+
+
+            var emitter = particles.createEmitter({
+                speed: 1,
+                scale: {
+                    start: 1,
+                    end: 0
+                },
+                blendMode: 'ADD'
+            });
+
+
+            var logo = this.physics.add.image(100, 100, 'logo');
+
+
+            logo.setVelocity(100, 200);
+            logo.setBounce(1, 1);
+            logo.setCollideWorldBounds(true);
+
+
+            emitter.startFollow(logo);
+        }
+    </script>
+
+
+</body>
+
+</html>

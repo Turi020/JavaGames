@@ -1,0 +1,45 @@
+.container {
+    position: absolute;
+    background-color: cyan;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+}
+
+.box {
+    position: absolute;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    bottom: -15px;
+    right: -15px;
+}
+
+.hut {
+    position: relative;
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bix {
+    background-color: red;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.ui {
+    background-color: saddlebrown;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    bottom: 9px;
+}

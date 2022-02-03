@@ -1,0 +1,25 @@
+html {}
+
+input {
+    padding: 20px;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 5%;
+}
+
+.box {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 2em;
+    font-weight: 800;
+}

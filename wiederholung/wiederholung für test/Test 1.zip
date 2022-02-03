@@ -1,0 +1,57 @@
+.container2 {
+    position: absolute;
+    background-color: yellow;
+    top: 0px;
+    width: 3300px;
+    height: 300px;
+    right: 0px;
+    display: flex;
+}
+
+.box {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containe1 {
+    position: absolute;
+    background-color: blue;
+    width: 400px;
+    height: 300px;
+    left: 20px;
+    top: 220px;
+    display: flex;
+}
+
+.beb {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.bub {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+}
+
+.purple {
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

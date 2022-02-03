@@ -1,0 +1,44 @@
+.flexbox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bigbox {
+    background-color: magenta;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    justify-content: center;
+}
+
+.hole {
+    position: relative;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+}
+
+.container {
+    background-color: blue;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.Bex {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+}
+
+.bux {
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
