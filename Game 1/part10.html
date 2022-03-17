@@ -17,8 +17,8 @@
     <script type="text/javascript">
         var config = {
             type: Phaser.AUTO,
-            width: 1000,
-            height: 600,
+            width: 1100,
+            height: 800,
             physics: {
                 default: 'arcade',
                 arcade: {
@@ -47,7 +47,7 @@
         var game = new Phaser.Game(config);
 
         function preload() {
-            this.load.image('sky', 'assets/Beach.jpg');
+            this.load.image('sky', 'assets/Roblox.png');
             this.load.image('ground', 'assets/WOW.png');
             this.load.image('star', 'assets/Brick.png');
             this.load.image('bomb', 'assets/1.png');
@@ -69,9 +69,11 @@
             platforms.create(400, 600, 'ground').setScale(2).refreshBody(1);
 
             //  Now let's create some ledges
-            platforms.create(500, 400, 'ground');
+            platforms.create(500, 400, 'ground')
             platforms.create(100, 250, 'ground');
-            platforms.create(800, 220, 'ground');
+            platforms.create(900, 220, 'ground');
+            platforms.create(500, 120, 'ground');
+            platforms.create(500, 120, 'ground');
 
             // The player and its settings
             player = this.physics.add.sprite(100, 450, 'dude');
